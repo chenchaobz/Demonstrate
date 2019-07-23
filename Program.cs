@@ -14,7 +14,7 @@ namespace LeetCode
 
 
             ReverseInteger reverseInteger = new ReverseInteger();
-            int reverseInteger_test1 = reverseInteger.Reverse_A(-2147483412);
+            int reverseInteger_test1 = reverseInteger.Reverse_B(-2147483412);
             Console.WriteLine("输入：123，输出："+reverseInteger_test1);
             //int reverseInteger_test2 = reverseInteger.Reverse_A(-1);
             //Console.WriteLine("输入：-123，输出：" + reverseInteger_test2);
