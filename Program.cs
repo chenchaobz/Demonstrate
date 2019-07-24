@@ -9,18 +9,20 @@ namespace LeetCode
 {
     class Program
     {
+
+       
+
         static void Main(string[] args)
         {
 
+            ExcelSheetColumnTitle excelSheetColumnTitle = new ExcelSheetColumnTitle();
 
-            ReverseInteger reverseInteger = new ReverseInteger();
-            int reverseInteger_test1 = reverseInteger.Reverse_B(-2147483412);
-            Console.WriteLine("输入：123，输出："+reverseInteger_test1);
-            //int reverseInteger_test2 = reverseInteger.Reverse_A(-1);
-            //Console.WriteLine("输入：-123，输出：" + reverseInteger_test2);
-            //int reverseInteger_test3 = reverseInteger.Reverse_A(4);
-            //Console.WriteLine("输入：120，输出：" + reverseInteger_test3);
-            //Console.WriteLine(length);
+            //Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(1));
+            //Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(28));
+
+            Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(701));
+
+
             Console.ReadLine();
 
         }
