@@ -15,9 +15,9 @@ namespace LeetCode
         static void Main(string[] args)
         {
 
-            ExcelSheetColumnTitle excelSheetColumnTitle = new ExcelSheetColumnTitle();
+            //ThirdMaximumNumber thirdMaximumNumber = new ThirdMaximumNumber();
 
-            //Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(1));
+            //Console.WriteLine(thirdMaximumNumber.ConvertToTitle_A(1));
             //Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(28));
 
             Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(701));

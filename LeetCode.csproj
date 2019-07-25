@@ -44,10 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\BuddyStrings.cs" />
+    <Compile Include="Easy\CountPrimes.cs" />
     <Compile Include="Easy\ExcelSheetColumnTitle.cs" />
     <Compile Include="Easy\Non-decreasingArray.cs" />
     <Compile Include="Easy\ReverseInteger.cs" />
+    <Compile Include="Easy\RomanToInt.cs" />
+    <Compile Include="Easy\ThirdMaximumNumber.cs" />
     <Compile Include="Easy\ValidPalindrome.cs" />
+    <Compile Include="PalindromeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
