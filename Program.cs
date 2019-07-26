@@ -1,4 +1,4 @@
-﻿using Algorithm;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,18 +10,16 @@ namespace LeetCode
     class Program
     {
 
-       
+
 
         static void Main(string[] args)
         {
 
-            //ThirdMaximumNumber thirdMaximumNumber = new ThirdMaximumNumber();
+            string[] Arr = new string []{ "flower","flow", "flight" };
 
-            //Console.WriteLine(thirdMaximumNumber.ConvertToTitle_A(1));
-            //Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(28));
+            LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
 
-            Console.WriteLine(excelSheetColumnTitle.ConvertToTitle_A(701));
-
+            var x=  longestCommonPrefix.longestCommonPrefix_B(Arr);
 
             Console.ReadLine();
 

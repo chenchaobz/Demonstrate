@@ -46,11 +46,16 @@
     <Compile Include="LeetCode\Easy\BuddyStrings.cs" />
     <Compile Include="LeetCode\Easy\CountPrimes.cs" />
     <Compile Include="LeetCode\Easy\ExcelSheetColumnTitle.cs" />
+    <Compile Include="LeetCode\Easy\LongestCommonPrefix.cs" />
     <Compile Include="LeetCode\Easy\Non-decreasingArray.cs" />
     <Compile Include="LeetCode\Easy\ReverseInteger.cs" />
     <Compile Include="LeetCode\Easy\RomanToInt.cs" />
     <Compile Include="LeetCode\Easy\ThirdMaximumNumber.cs" />
     <Compile Include="LeetCode\Easy\ValidPalindrome.cs" />
+    <Compile Include="LeetCode\Easy\ValidParentheses.cs" />
+    <Compile Include="Msdn\IEnumerable\People.cs" />
+    <Compile Include="Msdn\IEnumerable\PeopleEnum.cs" />
+    <Compile Include="Msdn\IEnumerable\Person.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
